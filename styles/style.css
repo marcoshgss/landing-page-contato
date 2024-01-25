@@ -30,18 +30,18 @@ a {
 }
 
 a:hover {
-    color: rgb(132, 14, 201);
+    color: rgb(255,126,184);
     transition: 0.3s all;
 }
 
 #inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+    border: 2px solid rgb(255,126,184);
     padding: 10px;
     border-radius: 20px;
 }
 
 #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
+    background-color: rgb(231, 60, 137);
     color: white;
 }
 
@@ -62,7 +62,7 @@ h2 {
 }
 
 span {
-    color: rgb(132, 14, 201);
+    color: rgb(255,126,184);
 }
 
 p {
@@ -72,7 +72,8 @@ p {
 }
 
 img {
-    width: 580;
+    width: 30rem;
+    margin-left: 9rem;
 }
 
 form {
@@ -84,13 +85,16 @@ form {
 form [type="submit"] {
     height: 50px;
     width: 50%;
-    background-color: rgb(132, 14, 201);
+    background-color: rgb(255,126,184);
     color: white;
     font-weight: bold;
+    padding: 1rem;
+    
 }
 
 form [type="submit"]:hover {
     cursor: pointer;
+    background-color: rgb(231, 60, 137);
 }
 
 input {
