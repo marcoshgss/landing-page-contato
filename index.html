@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,57 @@
     <link rel="stylesheet" href="/styles/fonts.css">
     <link rel="stylesheet" href="/styles/media.css">
     <title>Landing page - Marketing Criativo</title>
+    <script src="js/script.js" defer></script>
 </head>
-<body>
-    <header>   <!--Cabeçalho--->
-        <div class="title">
-            <h1>Marketing</h1>
-            <h1>Criativo</h1>
-        </div>
 
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#" id="inscreva-se-btn">Já tem uma conta?</a></li>
-        </ul>
+<body> 
+    <header> <!--Cabeçalho-->
+        <nav class="nav-bar">
+
+            <div class="title">
+                <h1>Marketing</h1>
+                <h1>Criativo</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>   
+                </ul>
+            </div>
+            
+            <div class="login-button">
+                <button><a href="#">Já tem uma conta?</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="componentes/images/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Já tem uma conta?</a></button>
+            </div>
+        </div>
+        
     </header>
 
-    <main>   <!--Conteúdo principal-->
+    <main> <!--Conteúdo principal-->
         <aside>
             <h2><span>Inscreva-se agora</span></h2>
             <h2>na NewsNow</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s.</p>
             <form>
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="E-mail">
@@ -37,8 +67,10 @@
             </form>
         </aside>
 
-        <article>   <!--Tipo div semântica para colocar imagens-->
-        <a href="https://icons8.com/illustrations/author/mNCLibjicqSz"><img src="./componentes/images/img-2.png"  alt="Illustration by Julia K from "></a>
+        <article> <!--Tipo div semântica para colocar imagens-->
+            <a href="https://icons8.com/illustrations/author/mNCLibjicqSz"><img src="./componentes/images/img-2.png"
+                    alt="Illustration by Julia K from "></a>
     </main>
 </body>
+
 </html>

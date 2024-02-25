@@ -7,18 +7,25 @@ body {
     padding: 15px;
 }
 
-header{
-    display: flex;
+header {
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
 }
 
 .title {
-    flex-direction: column;
-    line-height: 10px;
+    display: flex;
+    align-items: center;
 }
 
+/* 
 li {
     display: inline-block;
     margin: 20px;
@@ -43,7 +50,7 @@ a:hover {
 #inscreva-se-btn:hover{
     background-color: rgb(231, 60, 137);
     color: white;
-}
+} */
 
 h1 {
     font-weight: 200;
@@ -83,18 +90,18 @@ form {
 }
 
 form [type="submit"] {
-    height: 50px;
+    /* height: 50px;
     width: 50%;
     background-color: rgb(255,126,184);
     color: white;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1rem; */
     
 }
 
 form [type="submit"]:hover {
-    cursor: pointer;
-    background-color: rgb(231, 60, 137);
+    /* cursor: pointer;
+    background-color: rgb(231, 60, 137); */
 }
 
 input {
@@ -105,3 +112,60 @@ input {
     border: none;
     font-size: 15px;
 }
+
+
+nav-bar
+nav-list
+mobile-menu-icon
+mobile-menu
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}   
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.login-button button {
+    border: none;
+    background-color: rgba(24, 206, 78, 0.774);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
