@@ -1,8 +1,8 @@
 ![2024-01-2515-37-22-ezgif com-video-to-gif-converter](https://github.com/marcoshgss/landing-page-contato/assets/99811575/16b941fa-5e3d-499f-a729-ea7ff4aa2eaa)
 
-# Landing page de cantato
+# Landing page de contato
 
-Esse projeto é sobre uma landing page de cantato, destinado para capitar clientes para o *Marketing Criativo - empresa fictícia*. 
+Esse projeto é sobre uma landing page de contato, destinado para capitar clientes para o *Marketing Criativo - empresa fictícia*. 
 
 ## 🔥 Introdução
 
